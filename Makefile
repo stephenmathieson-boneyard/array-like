@@ -16,4 +16,4 @@ test: build node_modules
 node_modules:
 	@npm install
 
-.PHONY: clean
+.PHONY: clean test
