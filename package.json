@@ -1,0 +1,10 @@
+{
+  "name": "array-like",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "mocha-phantomjs": "~3.1.2",
+    "mocha": "~1.12.1",
+    "phantomjs": "~1.9.2-0"
+  }
+}

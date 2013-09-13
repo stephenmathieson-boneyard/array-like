@@ -1,5 +1,4 @@
 
-
 module.exports = like;
 
 /**
@@ -27,5 +26,9 @@ function hap(obj, prop) {
  */
 
 function like(obj) {
-  return hap(obj, 'length');
+  if (typeof obj !== 'object') return false;
+  if (!hap(obj, 'length')) return false;
+  if (isNaN(obj.length)) return false;
+  if (obj.length == null) return false;
+  return true;
 }

@@ -3,9 +3,15 @@
   "repo": "stephenmathieson/array-like",
   "description": "check if something is array-like",
   "version": "0.1.0",
-  "keywords": [ "array", "array-like", "type" ],
+  "keywords": [
+    "array",
+    "array-like",
+    "type"
+  ],
   "dependencies": {},
-  "development": {},
+  "development": {
+    "component/assert": "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
